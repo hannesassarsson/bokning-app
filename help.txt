@@ -1,0 +1,37 @@
+3️⃣ Kontrollera vad du ändrat
+git status
+
+
+Du ser t.ex.:
+
+modified: src/routes/bookings.ts
+
+4️⃣ Lägg till ändringarna
+git add .
+
+
+(eller specifik fil: git add src/routes/bookings.ts)
+
+5️⃣ Skapa commit
+git commit -m "Add endpoint for cancelling bookings"
+
+
+👉 Commit-meddelandet ska svara på:
+“Vad gjorde jag?”
+
+6️⃣ Skicka till GitHub
+git push
+
+
+💥 Ändringen är nu säker och delad.
+
+🔵 STEG 2 — På den andra datorn
+
+När du vill fortsätta där:
+
+git pull
+
+
+✔ Samma kod
+✔ Samma ändringar
+✔ Redo att jobba vidare
